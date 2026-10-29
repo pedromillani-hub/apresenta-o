@@ -1,10 +1,5 @@
-function TecnologiaTag(props) {
-
-
-return (
-<>
-</>
-  )
+function TecnologiaTag({ nome }) {
+  return <span className="tecnologia-tag">{nome}</span>;
 }
 
-export default TecnologiaTag
+export default TecnologiaTag;
